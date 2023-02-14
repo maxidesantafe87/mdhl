@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+/*   .paraizquierda{
+    margin-left: 50%;
+  }
+ */
+
+/* .carousel-image {
+    height: 50%;
+  } */
+
+
+
+  .paraizquierda{
+    margin-left: 50%;
+  }
+
+
+  .tamaño{
+    width: 100%;
+  }
+
+  .espacio{
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+    .secciones-accion:hover{
+       border-color: rgb(110, 226, 42) !important;
+    }
+.footer-color{
+    background-color: rgba(0, 0, 0, 0.2);
+  
+    
+}
+
+.head-color{
+
+}
