@@ -10,8 +10,12 @@
  */
 .icono{
     width: 75px;
+}
+.logo{
+filter: drop-shadow(4px 4px 8px #999999);
+}
 
-height: 75px;
+.height: 75px;
 }
 
 .carousel-image {
@@ -72,7 +76,7 @@ margin-left: 0;
 color:rgb(110, 226, 42);
 text-shadow: 2px 2px black;
 white-space: pre;    
-
+filter: drop-shadow(2px 2px 4px #999999);
 
 
 }
@@ -114,7 +118,7 @@ table{
     display: flex;
     justify-content: center;
     align-items: center;
-
+    filter: drop-shadow(2px 2px 4px #999999);
 }
 th{
     font-size: x-large;
