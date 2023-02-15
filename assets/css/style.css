@@ -101,3 +101,8 @@ display: flex;
 justify-content: center;
 align-items: center;
 }
+.titulo{
+    font-size: 18px;
+    font-weight: bolder;
+    padding-top: 10px;  
+}
