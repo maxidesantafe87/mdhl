@@ -145,3 +145,49 @@ td {
     background-color: rgb(229, 235, 241);
     border: solid 2px black;
 }
+
+.card-individual{
+    padding: 10px;    
+}
+
+
+
+
+.box-card {
+  
+
+    color: rgb(110, 226, 42);
+    
+    justify-content: center;
+    padding: auto;
+    text-shadow: 2px  black;
+    filter: drop-shadow(2px 2px 4px #999999);
+
+}
+.row {
+  margin: 0 auto;
+}   
+
+
+.box-card:hover {
+    
+    
+    color: black;
+    text-shadow: 2px  black;
+    justify-content: center;
+    padding: auto;
+
+    filter: drop-shadow(3px 3px 6px  rgb(110, 226, 42));
+
+
+}
+
+
+.card-title{
+    color: black     !important;
+
+}
+
+.card-text{
+    color: black     !important;
+}
