@@ -17,23 +17,39 @@
 
 <body>
   <!-- //// INICIO NAV -->
-  <nav class="navbar  head-color">
+  <nav class="navbar navbar-expand-md head-color">
     <div class="container">
-      <a class="navbar-brand" href="#">
-        <img class="logo" src="./assets/img/Logo Amazing Events.png" alt="Bootstrap" height="40">
-      </a>
-
-      <form class="d-flex " role="botones">
-
-        <a href="./home.html" class="btn btn-outline-success mx-2" role="button">Home</a>
-        <a href="./Uncoming_Events.html" class="btn btn-outline-success mx-2" role="button">Uncoming Events</a>
-        <a href="./Past_Events.html" class="btn btn-outline-success mx-2" role="button">Past Events</a>
-        <a href="./Contact.html" class="btn btn-outline-success mx-2" role="button">Contact</a>
-        <a href="./Detail.html" class="btn btn-outline-success mx-2" role="button">Details</a>
-        <a href="./Stats.html" class="btn btn-outline-success mx-2" role="button">Stats</a>
-      </form>
+        <a class="navbar-brand" href="#">
+            <img class="logo" src="./assets/img/Logo Amazing Events.png" alt="Bootstrap" height="40">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="./home.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./Uncoming_Events.html" class="nav-link">Uncoming Events</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./Past_Events.html" class="nav-link">Past Events</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./Contact.html" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./Detail.html" class="nav-link">Details</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./Stats.html" class="nav-link">Stats</a>
+                </li>
+            </ul>
+        </div>
     </div>
-  </nav>
+</nav>
+
   <!-- //// FIN NAV -->
 
 
@@ -46,32 +62,7 @@
   </div>
   <!-- //// FIN Selector -->
 
-  <!-- //// INICIO CAROUSEL -->
-
-  <div id="carouselExampleControls" class="carousel slide contenedor-slider carousel-image" data-bs-ride="carousel">
-    <div class="carousel-inner ">
-      <div class="carousel-item carousel-image active">
-        <img src="./assets/img/Cinema.jpg" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item carousel-image">
-        <img src="./assets/img/Marathon.jpg" class="d-block w-100" alt="...">
-      </div>
-
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-  <!-- //// FIN CAROUSEL -->
-
-
-
-
+ 
   <nav class="navbar navbar-expand-md navbar-light bg-light espacio">
     <div class="container-fluid ">
 
@@ -95,10 +86,6 @@
         <input class="form-check-input" type="checkbox" id="categoria5">
         <label class="form-check-label" for="categoria5">Categoria 5</label>
       </div>
-
-
-
-
 
       <form class="d-flex">
         <input class="form-control tamaño" type="search" placeholder="Buscar" aria-label="Buscar">
