@@ -17,25 +17,41 @@
 
 <body>
   <!-- //// INICIO NAV -->
-  <nav class="navbar  head-color">
+  <nav class="navbar navbar-expand-md head-color">
     <div class="container">
       <a class="navbar-brand" href="#">
         <img class="logo" src="./assets/img/Logo Amazing Events.png" alt="Bootstrap" height="40">
       </a>
-
-      <form class="d-flex " role="botones">
-
-        <a href="./home.html" class="btn btn-outline-success mx-2" role="button">Home</a>
-        <a href="./Uncoming_Events.html" class="btn btn-outline-success mx-2" role="button">Uncoming Events</a>
-        <a href="./Past_Events.html" class="btn btn-outline-success mx-2" role="button">Past Events</a>
-        <a href="./Contact.html" class="btn btn-outline-success mx-2" role="button">Contact</a>
-        <a href="./Detail.html" class="btn btn-outline-success mx-2" role="button">Details</a>
-        <a href="./Stats.html" class="btn btn-outline-success mx-2" role="button">Stats</a>
-      </form>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a href="./home.html" class="btn btn-outline-success mx-2" role="button">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="./Uncoming_Events.html" class="btn btn-outline-success mx-2" role="button">Uncoming Events</a>
+          </li>
+          <li class="nav-item">
+            <a  href="./Past_Events.html" class="btn btn-outline-success mx-2" role="button">Past Events</a>
+          </li>
+          <li class="nav-item">
+            <a href="./Contact.html" class="btn btn-outline-success mx-2" role="button">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a href="./Detail.html" class="btn btn-outline-success mx-2" role="button">Details</a>
+          </li>
+          <li class="nav-item">
+            <a href="./Stats.html" class="btn btn-outline-success mx-2" role="button">Stats</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </nav>
-  <!-- //// FIN NAV -->
 
+  <!-- //// FIN NAV -->
+ 
 
   <!-- //// Incio Selector -->
   <div class="container2">
@@ -46,9 +62,7 @@
   <!-- //// FIN Selector -->
 
  
-
-
-
+ 
   <nav class="navbar navbar-expand-md navbar-light bg-light espacio">
     <div class="container-fluid ">
 
@@ -73,10 +87,6 @@
         <label class="form-check-label" for="categoria5">Categoria 5</label>
       </div>
 
-
-
-
-
       <form class="d-flex">
         <input class="form-control tamaño" type="search" placeholder="Buscar" aria-label="Buscar">
         <button class="btn btn-outline-success" type="submit">Buscar</button>
@@ -92,99 +102,94 @@
 
   <!-- //// INICIO TARJETAS -->
 
+ 
+  
   <div class="album py-5 bg-light">
     <div class="container">
-
+  
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4">
 
         <div class="col">
-          <div class="card shadow-sm border-success secciones-accion">
-            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="./assets/img/Costume_Party.jpg"
-              role="img" Placeholder="Thumbnail" focusable="false"><text class="titulo"
-              style="text-align: center;">Titulo</text></img>
-
-            <div class="card-body ">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                content. This content is a little bit longer.</p>
+          <div class="card h-100 shadow-sm border-success secciones-accion">
+            <img class="card-img-top card-img-fixed" src="./assets/img/Costume_Party.jpg" alt="Thumbnail">
+            <div class="card-body">
+              <h5 class="card-title text-center">Titulo</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+            <div class="card-footer">
               <div class="d-flex justify-content-between align-items-center">
-
                 <small class="text-muted">Price: $0000</small>
                 <div class="btn-group">
-                  <button type="button" class="btn btn btn-outline-secondary border-success">Ver Mas...</button>
-
+                  <button type="button" class="btn btn-outline-secondary border-success">Ver Mas...</button>
                 </div>
               </div>
             </div>
           </div>
         </div>
-
+  
 
         <div class="col">
-          <div class="card shadow-sm border-success secciones-accion">
-            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="./assets/img/Food_Fair.jpg"
-              role="img" Placeholder="Thumbnail" focusable="false"><text class="titulo"
-              style="text-align: center;">Titulo</text></img>
-
+          <div class="card h-100 shadow-sm border-success secciones-accion">
+            <img class="card-img-top card-img-fixed" src="./assets/img/Food_Fair.jpg" alt="Thumbnail">
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                content. This content is a little bit longer.</p>
+              <h5 class="card-title text-center">Titulo</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+            <div class="card-footer">
               <div class="d-flex justify-content-between align-items-center">
-
                 <small class="text-muted">Price: $0000</small>
                 <div class="btn-group">
-                  <button type="button" class="btn btn btn-outline-secondary border-success">Ver Mas...</button>
-
+                  <button type="button" class="btn btn-outline-secondary border-success">Ver Mas...</button>
                 </div>
               </div>
             </div>
           </div>
         </div>
+
         <div class="col">
-          <div class="card shadow-sm border-success secciones-accion">
-            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="./assets/img/Museum_Tour.jpg"
-              role="img" Placeholder="Thumbnail" focusable="false"><text class="titulo"
-              style="text-align: center;">Titulo</text></img>
-
+          <div class="card h-100 shadow-sm border-success secciones-accion">
+            <img class="card-img-top card-img-fixed" src="./assets/img/Museum_Tour.jpg" alt="Thumbnail">
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                content. This content is a little bit longer.</p>
+              <h5 class="card-title text-center">Titulo</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+            <div class="card-footer">
               <div class="d-flex justify-content-between align-items-center">
-
                 <small class="text-muted">Price: $0000</small>
                 <div class="btn-group">
-                  <button type="button" class="btn btn btn-outline-secondary border-success">Ver Mas...</button>
-
+                  <button type="button" class="btn btn-outline-secondary border-success">Ver Mas...</button>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="col ">
-          <div class="card shadow-sm border-success secciones-accion">
-            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="./assets/img/Music_Concert.jpg"
-              role="img" Placeholder="Thumbnail" focusable="false"><text class="titulo"
-              style="text-align: center;">Titulo</text></img>
 
-            <div class="card-body ">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                content. This content is a little bit longer.</p>
+        <div class="col">
+          <div class="card h-100 shadow-sm border-success secciones-accion">
+            <img class="card-img-top card-img-fixed" src="./assets/img/Music_Concert.jpg" alt="Thumbnail">
+            <div class="card-body">
+              <h5 class="card-title text-center">Titulo</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+            <div class="card-footer">
               <div class="d-flex justify-content-between align-items-center">
-
                 <small class="text-muted">Price: $0000</small>
                 <div class="btn-group">
-                  <button type="button" class="btn btn btn-outline-secondary border-success">Ver Mas...</button>
-
+                  <button type="button" class="btn btn-outline-secondary border-success">Ver Mas...</button>
                 </div>
               </div>
             </div>
-
           </div>
         </div>
+
+       
+  
       </div>
     </div>
   </div>
-  <!-- //// FIN TARJETAS -->
 
+
+  <!-- //// FIN TARJETAS -->
   <!-- //// INICIO FOOTER -->
 
 
@@ -206,7 +211,7 @@
     </ul>
     <div class="col-md-4 d-flex align-items-center ">
       <span class="mb-3 mb-md-0 text-muted">
-        <h2>COHORT</h2>
+        <h2 style="padding-right: 10px">COHORT</h2>
       </span>
     </div>
 
