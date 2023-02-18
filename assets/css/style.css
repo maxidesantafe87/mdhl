@@ -215,7 +215,8 @@ td {
 }
 
 .card-img-fixed {
-    height: 90%;
+    
+    height: 20vh;
   }
 
   .card-img-top {
