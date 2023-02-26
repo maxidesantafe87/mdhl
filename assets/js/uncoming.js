@@ -1,23 +1,13 @@
 // En el archivo home.js
 const eventCardsContainer = document.getElementById("event-cards");
 const eventsData = data.events; // Agregar esta línea
-
-// Convertir las fechas de string a objetos Date
-for (let i = 0; i < eventsData.length; i++) {
-  eventsData[i].date = new Date(eventsData[i].date);
-}
-
-// Ordenar los eventos por fecha de manera descendente
-eventsData.sort((a, b) => b.date - a.date);
-
+// Obtener la fecha actual en formato yyyy-mm-dd
+const today = data.currentDate;
 // Generar una tarjeta para cada evento en eventsData
 for (let i = 0; i < eventsData.length; i++) {
   const event = eventsData[i];
-
-  // Omitir eventos cuya fecha es anterior a la actual
-  if (event.date < new Date()) {
-    continue;
-  }
+  
+  if (event.date > today) {
 
   // Crear una plantilla de cadena para la tarjeta
   const cardTemplate = `
@@ -43,3 +33,6 @@ for (let i = 0; i < eventsData.length; i++) {
   // Agregar la tarjeta al contenedor
   eventCardsContainer.innerHTML += cardTemplate;
 }
+
+}
+

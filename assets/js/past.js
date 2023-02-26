@@ -2,7 +2,7 @@
 const eventCardsContainer = document.getElementById("event-cards");
 const eventsData = data.events; // Agregar esta línea
 // Obtener la fecha actual en formato yyyy-mm-dd
-const today = new Date().toISOString().slice(0, 10);
+const today = data.currentDate;
 // Generar una tarjeta para cada evento en eventsData
 for (let i = 0; i < eventsData.length; i++) {
   const event = eventsData[i];
