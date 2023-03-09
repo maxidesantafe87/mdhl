@@ -29,7 +29,8 @@ fieldset {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
- 
+    width: auto;
+    
 }
 
 body {
@@ -366,6 +367,7 @@ footer {
         font-family: "Times New Roman", Times, serif;
         font-size: 2em;
         text-align: center;
+        font-weight: bold;
     }
     .card-individual_tamaño{
         
@@ -376,6 +378,29 @@ footer {
     }
     .texto-arial{
         font-family: Arial, sans-serif;
-        
+        justify-content: left;
     }
 
+.centrado{
+    text-align: center;
+    
+}
+
+.subrayado{
+    border-bottom: 1px solid gray;
+}
+
+.texto-alado{
+  display: inline-block;
+}
+
+.card{
+    transition: transform 0.4s;
+  }
+  
+  .card:hover {
+    transform: scale(1.07);
+    z-index: 1;
+    
+    box-shadow: -7px -7px 7px #56062f2b;
+  }
