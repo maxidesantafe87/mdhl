@@ -34,6 +34,13 @@ if (pagActual == "Event.html") {
   nombreMenu = "Stats";
 }
 
+if (pagActual == "tarjeta.html") {
+  menuAnterior = "index.html";
+  menuPosterior = "index.html";
+  nombreMenu = "Detail";
+}
+
+
 document.getElementById("nombre-menu").innerHTML = nombreMenu;
 
 document.querySelector('.selector_nav a:first-of-type').addEventListener('click', function() {
