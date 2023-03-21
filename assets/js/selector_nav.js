@@ -28,18 +28,17 @@ if (pagActual == "Stats.html") {
   nombreMenu = "Stats";
 }
 
-if (pagActual == "Event.html") {
-  menuAnterior = "index.html";
-  menuPosterior = "index.html";
-  nombreMenu = "Stats";
-}
-
 if (pagActual == "tarjeta.html") {
   menuAnterior = "index.html";
   menuPosterior = "index.html";
   nombreMenu = "Detail";
 }
 
+if (pagActual == null) {
+  menuAnterior = "index.html";
+  menuPosterior = "index.html";
+  nombreMenu = "Home";
+}
 
 document.getElementById("nombre-menu").innerHTML = nombreMenu;
 

@@ -354,35 +354,77 @@ footer {
 
 
 
-      .tabla {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    table {
         filter: drop-shadow(2px 2px 4px #999999);
-        margin-top: 3%;
-        margin-bottom: 1%;
-    }
-    
-    th {
-        font-size: x-large;
-        margin: 20px;
-        padding: 20px;
-        background-color: rgba(0, 0, 0, 0.2);
-        border-bottom: 1px solid black;
-        border: solid 2px black;
-    
-    }
-    
-    td {
-        font-size: large;
-        margin: 10px;
-        padding: 10px;
-        border-right: 1px solid black;
-        border-bottom: 1px solid black;
-        background-color: rgb(229, 235, 241);
-        border: solid 2px black;
+        
     }
 
+
+      .stats-table{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 100%;
+  
+    }
+    .tabla-td{
+        font-size: large !important;
+        margin: 10px !important;
+        padding: 10px !important;
+        border-right: 1px solid black !important;
+        border-bottom: 1px solid black !important;
+        background-color: rgb(172, 245, 37) !important;
+        border: solid 2px black !important;
+        font-weight: bold  !important;
+        color:#000000 !important;
+
+    }
+    
+    .tabla-td-sub{
+        font-size: large !important;
+        background-color: rgba(189, 252, 71, 0.801) !important;
+        font-weight: bold  !important;
+        color:#000000 !important;
+    }
+
+   .tabla-td-lateral{
+        font-size: large !important;
+        background-color: rgba(194, 245, 101, 0.623) !important;
+        font-weight: bold  !important;
+        color:#000000 !important;
+    }
+
+  tr{
+    
+        border-color: black  !important;
+        text-align: center !important;
+        
+        
+        
+    }
+   th{
+        font-size: x-large !important;
+        margin: 20px !important;
+        padding: 20px !important;
+        background-color: rgba(0, 0, 0, 0.2) !important;
+        border-bottom: 1px solid black !important;
+        border: solid 2px black  !important;
+        
+        
+    }
+
+  td{
+        font-size: large !important;
+        margin: 10px !important;
+        padding: 10px !important;
+        border-right: 1px solid black !important;
+        border-bottom: 1px solid black !important;
+        background-color: rgb(229, 235, 241) !important;
+        border: solid 2px black !important;
+        font-weight: bold  !important;
+        
+    }
+   
 
     .card-individual_titulo{
         font-family: "Times New Roman", Times, serif;

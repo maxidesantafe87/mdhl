@@ -70,87 +70,79 @@
 
 
   <!-- //// INICIO TABLA  -->
-
-  <div class="tabla">
-    <table>
+  <div class="stats-table">
+    <div class="">
+    <div class="">
+    <table class="table my-3">
         <thead>
-            <tr>
-                <th colspan="3">Events statistics</th>
-            </tr>
-            <tr>
-                <td>Events with the highest percentage of attendance</td>
-                <td>Events with the lowest percentage of attendance</td>
-                <td>Event with larger capacity</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <th colspan="3">Upcoming events statistics by category</th>
-            </tr>
-            <tr>
-                <td>Categories</td>
-                <td>Revenues</td>
-                <td>Percentage of attendance</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-        </tbody>
-        <tfoot>
-            <tr>
-                <th colspan="3">Past Events statistic by category</th>
-            </tr>
-            <tr>
-                <td>Categories</td>
-                <td>Revenues</td>
-                <td>Percentage of attendance</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-        </tfoot>
 
-    </table>
-</div>
+            <tr  class="th">
+               
+                <td  class="tabla-td" colspan="3">Events statistics</td>
+                
+              </tr>
+
+              <tr>
+            
+                <td class="tabla-td-sub">Event of highest percentage of attendance</td>
+                <td class="tabla-td-sub">Event of lowest percentage of attendance</td>
+                <td class="tabla-td-sub">Event whit larger capacity</td>
+              </tr>
+          
+        </thead>
+        <tbody id="eventsstatstable">
+          
+        
+        </tbody>
+      </table>
+    </div>
+
+    <div class="">
+      <table class="table my-5">
+        <thead>
+
+            <tr>
+                <td class="tabla-td" colspan="3">Upcoming Events statistics by category</td> 
+              </tr>
+
+              <tr>
+                <td class="tabla-td-sub">Categories</td>
+                <td class="tabla-td-sub">Revenues</td>
+                <td class="tabla-td-sub">Percentage of attendance</td>
+              </tr>
+          
+        </thead>
+        <tbody id="upcomingeventstable">
+          
+          
+        </tbody>
+      </table>
+    </div>
+
+    <div class="">
+      <table class="table my-5">
+        <thead>
+
+            <tr>
+                <td class="tabla-td" colspan="3">Past Events statistics by category</td> 
+            </tr>
+
+            <tr>
+              <td class="tabla-td-sub">Categories</td>
+              <td class="tabla-td-sub">Revenues</td>
+              <td class="tabla-td-sub">Percentage of attendance</td>
+              
+            </tr>
+          
+        </thead>
+        <tbody id="pasteventstable">
+          
+        </tbody>
+      </table>
+    </div>
+    </div>
+    </div>
+
 <!-- //// FIN TABLA  -->
 
 
@@ -195,7 +187,9 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
     crossorigin="anonymous"></script>
-
+    <script src="../assets/js/Data.js"></script>
+    <script src="../assets/js/stats.js"></script>
+    <script src="../assets/js/estructura.js"></script>
 </body>
 
 </html>
