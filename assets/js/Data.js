@@ -12,7 +12,7 @@ getData();
 
 let data=localStorage.getItem("data");
   data = JSON.parse(data);
-console.log(data);
+
 
 
 
@@ -40,4 +40,4 @@ data.events.forEach(evento => {
     categories.push(evento.category)
   }
 });
-console.log(categories); 
+
